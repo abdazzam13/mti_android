@@ -7,6 +7,7 @@ Berkas APK dapat diakses pada link berikut: [APK](https://drive.google.com/file/
 ## Deskripsi
 
 Aplikasi ini berhasil menyelesaikan semua tugas yang ada pada berkas Brief Project, namun untuk unit testing belum sempat disempurnakan.
+Catatan: Mohon melakukan refresh dengan cara swipe ke bawah untuk mengupdate data Latitude dan Longitude.
 
 ## Dependensi
 
