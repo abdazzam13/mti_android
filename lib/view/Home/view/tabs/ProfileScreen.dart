@@ -169,8 +169,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                 style: TextStyle(
                                     fontWeight: FontWeight.bold, fontSize: 20),
                               ),
-                              Text("Latitude: ${position?.latitude}"),
-                              Text("Longitude: ${position?.longitude}"),
+                              position?.longitude != 0.00 && position?.latitude != 0.00 ? Column(
+                                children: [
+                                  Text("Latitude: ${position?.latitude}"),
+                                  Text("Longitude: ${position?.longitude}"),
+                                ],
+                              ) : CircularProgressIndicator(),
                               ElevatedButton(
                                 onPressed: () {
                                   SharedPref.setIsLogin(false);
